@@ -1,0 +1,150 @@
+body {
+  max-width: 1280px;
+}
+
+/* NAVIGATION */
+.bg-dark {
+  background-color: #03292A !important;
+}
+.bg-dark .navbar-brand {
+  font-weight: bold;
+  font-size: 26px;
+  background-color: #076766;
+  width: 76px;
+  height: 40px;
+  margin-top: -40px;
+}
+
+.navbar-collapse {
+  padding-top: 50px;
+  height: 80px;
+  margin-left: -99px;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 1px;
+  background-color: #066665;
+  text-align: center;
+}
+.navbar-collapse .dropdown .dropdown-menu {
+  background-color: #066665;
+  height: 108px;
+}
+.navbar-collapse .dropdown .dropdown-menu .dropdown-item {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  text-align: center;
+}
+.navbar-collapse .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #03292A;
+}
+@media (max-width: 991px) {
+  .navbar-collapse {
+    height: auto;
+  }
+  .navbar-collapse .nav-link {
+    width: 102%;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+/* ASIDE LOGO */
+.logo {
+  background-color: #066765;
+  color: #ffffff;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-left: -80px;
+  width: 60px;
+  margin-top: -20px;
+}
+.logo h3 {
+  margin: 0 15px;
+}
+
+/* MAIN SECTION */
+#mainSection {
+  background-color: #1D3A39;
+  color: #ffffff;
+  margin-top: -105px;
+  border: 8px solid #076766;
+}
+#mainSection h1 {
+  letter-spacing: 2px;
+}
+#mainSection hr {
+  color: #1A3433;
+}
+#mainSection p {
+  font-size: 13px;
+}
+
+/* ASIDE SECTION */
+#asideSection {
+  background-color: #1D3A39;
+  color: #ffffff;
+  margin-top: -105px;
+  border: 8px solid #076766;
+}
+#asideSection article a {
+  color: #ffffff;
+}
+#asideSection article .envelopeIcons {
+  display: inline-block;
+}
+#asideSection article .fa-envelope-square {
+  font-size: 45px;
+  margin: 15px;
+}
+#asideSection article h4 {
+  font-weight: normal;
+}
+#asideSection article h5 {
+  text-decoration: underline;
+  font-weight: normal;
+  color: #ffffff;
+}
+#asideSection .slick-prev {
+  left: -13px;
+}
+#asideSection .slick-next {
+  right: -13px;
+}
+
+@media (max-width: 767px) {
+  #asideSection {
+    margin-top: 0;
+  }
+}
+/* FOOTER SECTION */
+footer {
+  margin-top: 20px;
+  background-color: #076766;
+  color: #ffffff;
+  font-size: 18px;
+}
+footer p {
+  margin: auto;
+  text-align: center;
+  line-height: 50px;
+}
+footer .list-group {
+  display: block;
+}
+footer .list-group .list-group-item {
+  float: left;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+}
+footer .list-group .list-group-item a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
